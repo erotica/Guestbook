@@ -13,14 +13,6 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 		<url-pattern>/guestbook</url-pattern>
 	</servlet-mapping>
 	
-	<servlet>
-		<servlet-name>functionpoint</servlet-name>
-		<servlet-class>functionPoint.FunctionPointServlet</servlet-class>
-	</servlet>
-	<servlet-mapping>
-		<servlet-name>functionpoint</servlet-name>
-		<url-pattern>/functionpoint</url-pattern>
-	</servlet-mapping>
 	
 	<servlet>
         <servlet-name>sign</servlet-name>
