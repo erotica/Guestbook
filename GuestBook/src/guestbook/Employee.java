@@ -13,7 +13,7 @@ public class Employee {
 	@PrimaryKey
 	@Persistent(valueStrategy = IdGeneratorStrategy.IDENTITY)
 	private Key key;
-	
-	// 1차 수정하여 commit 합니다.
+	private lock ;
+	// 1차 수정하a여 commit 합니다.
 
 }
